@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Start</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Hello!</h1>
+            <p>Lorem ipsum dolor John Forslund, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.</p>
+        </section>
+
+<div class="buttons">
+    <div id="button-testimonials" class="button" onmouseenter="expandButton('testimonials')">
+        <span class="original-text">Testimonials</span>
+        <span class="extra-text"> - See what others say!</span>
+    </div>
+    <div id="button-projects" class="button" onmouseenter="expandButton('projects')">
+        <span class="original-text">Projects</span>
+        <span class="extra-text"> - Explore my work!</span>
+    </div>
+    <div id="button-contact" class="button" onmouseenter="expandButton('contact')">
+        <span class="original-text">Contact</span>
+        <span class="extra-text"> - Get in touch with me!</span>
+    </div>
+    <div id="button-about" class="button" onmouseenter="expandButton('about')" onmouseleave="resetButton(this)">
+        <span class="original-text">About me</span>
+        <div class="about-details">
+            <p>Hi! I'm John, an embedded software developer from Göteborg, Sweden.</p>
+            <p><strong>My primary tools are:</strong></p>
+            <ul>
+                <li>C++</li>
+                <li>CMake</li>
+                <li>Linux</li>
+                <li>GDB</li>
+                <li>FreeRTOS</li>
+            </ul>
+            <p>Outside of work, I'm a sci-fi and music nerd. I enjoy running in the woods with my wife and dog. I love
+                cooking (currently a lot of Chinese food) and play a lot of board games! I’m passionate about technology
+                and often spend my evenings programming and learning new software.</p>
+        </div>
+    </div>
+</div>
+
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

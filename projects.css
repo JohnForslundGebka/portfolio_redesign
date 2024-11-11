@@ -1,0 +1,49 @@
+/* General link styling */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Projects Page Specific Styles */
+.projects-page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: left;
+    padding: 20px;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.project-card h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.project-image {
+    width: 100%;
+    height: 150px;
+    background-color: #b0a9a9;
+    margin: 10px 0;
+}
+
+/* Size Variants */
+.project-card.large {
+    width: 45%;
+}
+
+.project-card.medium {
+    width: 30%;
+}
+
+.project-card .project-image {
+    height: 100px;
+}

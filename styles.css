@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 1px 0 1px 20px;
+    background-color: #e0e0e0;
+    text-align: left;
+}
+
+main {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro {
+    width: 20%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    font-size: 50px;
+}
+
+.intro p,
+.intro h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+.button {
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    overflow: hidden;
+}
+
+.button .extra-text,
+.button .about-details {
+    display: none;
+}
+
+.button.expanded-button {
+    width: 500px;
+    height: auto;
+    /* Allow the button to grow with content */
+    font-size: 18px;
+    z-index: 10;
+    padding: 20px;
+    text-align: left;
+}
+
+.button.expanded-button .extra-text {
+    display: inline;
+}
+
+.button.expanded-button .original-text {
+    display: none;
+    /* Hide the original text */
+}
+
+.button.expanded-button .about-details {
+    display: block;
+    /* Display "About me" content */
+    color: #333;
+    line-height: 1.6;
+}
+
+.about-details ul {
+    padding-left: 20px;
+}
+
+.about-details li {
+    margin-bottom: 5px;
+}
