@@ -35,7 +35,7 @@ main {
 
 .buttons {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
     width: 100%;
@@ -79,12 +79,11 @@ main {
 
 .button.expanded-button .original-text {
     display: none;
-    /* Hide the original text */
 }
 
+/* Display "About me" content */
 .button.expanded-button .about-details {
     display: block;
-    /* Display "About me" content */
     color: #333;
     line-height: 1.6;
 }
